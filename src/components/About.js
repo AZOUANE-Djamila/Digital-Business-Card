@@ -5,9 +5,7 @@ function About() {
     <div className="about">
       <h3>About</h3>
       <p>
-      I am a frontend developer with a particular interest in making things simple and 
-      automating daily tasks. I try to keep up with security and best practices, 
-      and am always looking for new things to learn.
+      Web and mobile project manager. Thanks to my experiences, I was able to have a multidisciplinary profile and I acquired web/mobile and project management skills. 
       </p>
     </div>
   )
