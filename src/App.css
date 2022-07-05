@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+body {
+    margin: 0px;
+    padding: 10px 0px;
+    font-family: 'Inter';
+    background-color: #23252C
+}
+.container{
+    margin: 40px 420px;
+    width: 400px; 
+    overflow: hidden;
+    background-color: #161619;
+    color: #fff;
+    display: flex;           
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 6px; 
+}
+.profile-header{
+    display: flex;           
+    flex-direction: column;
+    align-items: center;  
+    border-radius: 4px; 
+}
+.profile-header img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-header .profile-name {
+    margin: 20px 5px 0px 5px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile-header .profile-title {
+    margin: 5px 5px 0px 5px;
+    color: #F3BF99;
+    font-size: 12px;
+}
+.profile-header .profile-website {
+    margin-top: 20px;
+    color: #fff;
+}
+.profile-header .header-btn-group{
+    display: flex;
+    margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-header .header-btn-group .social-button {
+    padding: 10px 20px;
+    margin: 5px 10px;
+    width: 100px;
+    display: flex;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.profile-header .header-btn-group .social-button-email{
+    background-color: #fff;
+    color: #222
+}
+.profile-header .header-btn-group .social-button-linkedin{
+    background-color: #5093E2;
+    color: #fff;
+}
+.profile-header .header-btn-group .social-button .button-social-icon {
+    margin-right: 10px;
+    font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.main{
+    padding: 30px;
+    display: flex;           
+    flex-direction: column;
+    align-items: center;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main h3{
+    font-size: 16px;
+    color: #F5F5F5
+}
+
+.main p{
+    font-size: 12px;
+    color: #DCDCDC
+}
+.footer{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.footer .social-link {
+    padding: 15px;
+    margin: 0px 10px;
+    border-radius: 4px;
+    background-color: #777;
+    color: #222;
 }
